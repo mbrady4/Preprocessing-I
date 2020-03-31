@@ -163,6 +163,11 @@ body {
   align-content: center;
   justify-content: flex-end;
 }
+@media (max-width: 600px) {
+  .container nav {
+    justify-content: center;
+  }
+}
 .container nav a {
   padding: 2.5rem;
   font-size: 1.8rem;
@@ -176,6 +181,11 @@ body {
   height: 600px;
   max-height: 80%;
 }
+@media (max-width: 600px) {
+  .container .hero {
+    height: 500px;
+  }
+}
 .container .hero img {
   height: 60%;
   max-width: 90%;
@@ -184,6 +194,11 @@ body {
 .container .hero h1 {
   font-size: 5rem;
   padding: 0% 5% 0% 5%;
+}
+@media (max-width: 600px) {
+  .container .hero h1 {
+    font-size: 3rem;
+  }
 }
 .container .hero h3 {
   font-size: 2rem;
@@ -215,6 +230,11 @@ body {
 }
 .container .info div {
   width: 48%;
+}
+@media (max-width: 600px) {
+  .container .info div {
+    width: 100%;
+  }
 }
 .container .info div h2 {
   font-size: 3rem;
